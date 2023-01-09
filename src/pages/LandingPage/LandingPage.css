@@ -1,0 +1,81 @@
+.sider-custom {
+    background-color: #111010;
+    background-image: linear-gradient(90deg, #111010 0%, #423f42 88%) !important;
+}
+
+.menu {
+    background-color: #111010 !important;
+    background-image: linear-gradient(270deg, #111010 0%, #423f42 88%) !important;
+}
+
+.chat-history-cards {
+    margin-top: 40px;
+    color: #f1f1f1;
+    overflow: hidden;
+    padding: 0;
+    background: rgba(24, 24, 16, .2);
+    border-radius: 2em;
+
+    background: rgb(65, 65, 65);
+    backdrop-filter: blur(15px);
+    border: 2px solid rgba(255, 255, 255, 0.05);
+    background-clip: padding-box;
+    box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
+}
+
+.chat-history-cards-child {
+    height: 80vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.ant-layout-sider {
+    max-width: 37% !important;
+    min-width: 37% !important;
+    width: 37% !important;
+}
+
+@media only screen and (max-width: 1200px) {
+    .ant-layout-sider {
+        max-width: 5% !important;
+        min-width: 120px !important;
+        width: 10% !important;
+    }
+}
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.chatting-area {
+    overflow: auto;
+    height: 80vh;
+    background-color: #111010;
+    background-image: linear-gradient(270deg, #111010 0%, #423f42 88%);
+
+}
+
+.message-sender-area {
+    padding: 15px;
+    height: 8.1rem;
+    background-color: #111010;
+    background-image: linear-gradient(270deg, #111010 0%, #423f42 88%);
+}
+
