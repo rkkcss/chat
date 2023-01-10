@@ -8,7 +8,7 @@ export const LeftMemberCard = () => {
         <Col className='member-card'>
             <Row>
                 <Col xl={6} md={24} sm={24} xs={24}>
-                    <img src={picture} alt={'Pic'} className={'image-center-div'} style={{ width: '4rem', borderRadius: '50%' }} />
+                    <img src={picture} alt={'Pic'} className={'image-center-div left-menu-image'} />
                 </Col>
                 <Col xl={14} md={0} sm={0} xs={0} style={{ paddingLeft: '10px' }}>
                     <Col>

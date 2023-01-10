@@ -38,7 +38,7 @@
 @media only screen and (max-width: 1200px) {
     .ant-layout-sider {
         max-width: 5% !important;
-        min-width: 120px !important;
+        min-width: 90px !important;
         width: 10% !important;
     }
 }
@@ -73,7 +73,6 @@
 }
 
 .message-sender-area {
-    padding: 15px;
     height: 8.1rem;
     background-color: #111010;
     background-image: linear-gradient(270deg, #111010 0%, #423f42 88%);

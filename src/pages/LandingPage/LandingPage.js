@@ -14,7 +14,7 @@ const { Sider, Content } = Layout;
 export const LandingPage = () => {
     return (
         <Layout className='layout-left-custom'>
-            <Sider style={{ height: '100vh' }} className={'sider-custom'}>
+            <Sider className={'sider-custom'}>
                 <Col style={{ textAlign: 'center', color: 'white' }}>
                     <h1>Member</h1>
                 </Col>
@@ -58,18 +58,18 @@ export const LandingPage = () => {
                     </Col>
                     <Col className='message-sender-area'>
                         <Row>
-                            <Col span={1} style={{ fontSize: '25px', color: 'white', margin: '10px' }}>
+                            <Col span={1} xs={3} style={{ fontSize: '25px', color: 'white', margin: '10px' }}>
                                 <Link>
                                     <SmileOutlined />
                                 </Link>
                             </Col>
-                            <Col span={1} style={{ fontSize: '25px', color: 'white', margin: '10px' }}>
+                            <Col span={1} xs={3} style={{ fontSize: '25px', color: 'white', margin: '10px' }}>
                                 <GifOutlined />
                             </Col>
-                            <Col span={1} style={{ fontSize: '25px', color: 'white', margin: '10px' }}>
+                            <Col span={1} xs={3} style={{ fontSize: '25px', color: 'white', margin: '10px' }}>
                                 <VideoCameraOutlined />
                             </Col>
-                            <Col span={1} style={{ fontSize: '25px', color: 'white', margin: '10px' }}>
+                            <Col span={1} xs={3} style={{ fontSize: '25px', color: 'white', margin: '10px' }}>
                                 <PhoneOutlined />
                             </Col>
                         </Row>

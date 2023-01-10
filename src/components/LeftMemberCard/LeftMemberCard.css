@@ -17,8 +17,18 @@
     background-color: rgb(37, 37, 37);
 }
 
+.left-menu-image {
+    width: 4rem;
+    border-radius: 50%;
+}
+
 @media only screen and (max-width: 1200px) {
     .member-card {
-        margin-top: 50px;
-    }
+        margin-top: 25px;
+    };
+}
+@media only screen and (max-width: 1200px) {
+    .left-menu-image {
+        width: 3rem;
+    };
 }
