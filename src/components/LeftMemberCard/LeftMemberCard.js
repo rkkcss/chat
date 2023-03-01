@@ -1,4 +1,4 @@
-import { Col, Row } from 'antd'
+import { Badge, Col, Row, Space } from 'antd'
 import React from 'react'
 import picture from '../../face.jpg'
 import './LeftMemberCard.css'
@@ -20,14 +20,14 @@ export const LeftMemberCard = () => {
 
                 </Col>
                 <Col xl={4} md={0} sm={0} xs={0} style={{ textAlign: 'left' }}>
-                    <Row>
-                        <Col>
+                    <Space direction={'vertical'} size={'small'}>
+                        <Col span={24}>
                             <span>Yesterday</span>
                         </Col>
-                        <Col style={{ paddingTop: '15px' }}>
-                            <span>Yesterday</span>
+                        <Col span={24} className={'image-center-div'}>
+                            <Badge count={2} size={'default'} style={{ backgroundColor: 'blue', color: 'white' }}></Badge>
                         </Col>
-                    </Row>
+                    </Space>
                 </Col>
             </Row>
         </Col>

@@ -73,11 +73,11 @@ export const LandingPage = () => {
                                 <PhoneOutlined />
                             </Col>
                         </Row>
-                        <Row>
-                            <Col span={19} style={{ width: '90%' }}>
+                        <Row style={{display: 'flex'}}>
+                            <Col span={19} md={19} lg={19} sm={17} xs={16} xl={12} xxl={13} style={{ width: '90%' }}>
                                 <TextArea style={{ backgroundColor: '#363636', resize: 'none', color: 'white' }}></TextArea>
                             </Col>
-                            <Col span={1} offset={1} style={{ fontSize: '25px', color: 'white' }} className={'center-icon-div'}>
+                            <Col span={1} style={{ fontSize: '25px', color: 'white', left: '10px' }} className={'center-icon-div'}>
                                 <SendOutlined className='icon' />
                             </Col>
                         </Row>

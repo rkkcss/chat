@@ -1,6 +1,7 @@
 .sider-custom {
     background-color: #111010;
     background-image: linear-gradient(90deg, #111010 0%, #423f42 88%) !important;
+    height: 100vh;
 }
 
 .menu {
@@ -73,6 +74,9 @@
 }
 
 .message-sender-area {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     height: 8.1rem;
     background-color: #111010;
     background-image: linear-gradient(270deg, #111010 0%, #423f42 88%);
